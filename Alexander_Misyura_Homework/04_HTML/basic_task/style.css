@@ -25,3 +25,19 @@ h1 {
   border: none;
   height: 2px;
 }
+
+.table {
+  width: 100%;
+}
+
+#py_logo {
+  float: right;
+}
+
+#contents_link {
+  text-align: center;
+}
+
+#next_page_link {
+  text-align: right;
+}
