@@ -7,25 +7,24 @@ body {
   margin-left: -188px;
   text-align: center;
 }
+
 .card_1 {
   display: inline-block;
   width: 138px;
   height: 188px;
-  background: url("cards.png") -145px -200px no-repeat;
+  background: url("cards.png") -145px -200px;
 }
 
 .card_2 {
   margin-left: 100px;
-  display: inline-block;
-  width: 138px;
-  height: 188px;
-  background: url("cards.png") -433px -598px no-repeat;
+  width: inherit;
+  height: inherit;
+  background: url("cards.png") -433px -598px;
 }
 
 .card_3 {
-  margin-left: 100px;
-  display: inline-block;
-  width: 138px;
-  height: 188px;
-  background: url("cards.png") -289px -1394px no-repeat;
+  margin-left: inherit;
+  width: inherit;
+  height: inherit;
+  background: url("cards.png") -289px -1394px;
 }
