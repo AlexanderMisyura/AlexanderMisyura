@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(167, 203, 218);
+}
+
+.main_block {
+  margin: 100px auto;
+  padding: 8px;
+  width: 400px;
+  background-color: white;
+}
+
+.list_block {
+  width: 350px;
+}
+
+.upper_list {
+  list-style-type: upper-roman;
+}
+
+.upper_list span {
+  font-weight: bold;
+}
+
+.upper_list ul {
+  list-style-type: lower-roman;
+}
+
+.code_container {
+  width: 400px;
+  /* ???? требование 4 строки == 4em ???? */
+  max-height: 4em;
+  background-color: black;
+  color: green;
+  overflow: auto;
+  white-space: pre;
+}
