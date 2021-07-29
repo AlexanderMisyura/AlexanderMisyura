@@ -1,15 +1,18 @@
 .page {
   max-width: 100%;
   margin: 20px 100px;
+  background-color: floralwhite;
+  
 }
 
 .navigation {
   background-color: rgb(202, 202, 202);
   width: 15em;
   float: left;
+  margin-bottom: .2em;
 }
 
-.articles {
+.articles_wrapper {
   min-width: 15em;
   max-width: calc(100% - 15em);
   float: left;
