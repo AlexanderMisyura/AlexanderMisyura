@@ -1,12 +1,16 @@
+body {
+  margin: 0;
+}
+
 .page {
   max-width: 100%;
   margin: 20px 100px;
-  background-color: floralwhite;
+  background-color: #eee;
   
 }
 
 .navigation {
-  background-color: rgb(202, 202, 202);
+  background-color: #ccc;
   width: 15em;
   float: left;
   margin-bottom: .2em;
@@ -19,7 +23,7 @@
 }
 
 .article {
-  background-color: rgb(163, 163, 163);
+  background-color: #aaa;
   margin-bottom: .2em;
 }
 
@@ -27,12 +31,13 @@
   margin: 0;
 }
 .article h3 {
-  padding: 19px;
+  padding: 19px 0;
 }
 
 .footer {
-  background-color: rgb(165, 165, 165);
+  background-color: #ccc;
   clear: both;
+  min-width: 15em;
 }
 
 .empty_block {
