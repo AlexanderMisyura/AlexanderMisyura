@@ -9,12 +9,9 @@ body {
   background-color: white;
 }
 
-.list_block {
-  width: 350px;
-}
-
 .upper_list {
   list-style-type: upper-roman;
+  width: 350px;
 }
 
 .upper_list span {
@@ -27,8 +24,7 @@ body {
 
 .code_container {
   width: 400px;
-  /* ???? требование 4 строки == 4em ???? */
-  max-height: 4em;
+  height: 4em;
   background-color: black;
   color: green;
   overflow: auto;
