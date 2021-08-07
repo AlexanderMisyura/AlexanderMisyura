@@ -1,0 +1,51 @@
+p {
+  margin: 0 0 5px 0;
+  padding: 4px;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0 .6em/1em;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+ul {
+  list-style-image: url("img/logo-list.jpg");
+}
+
+a[href^="http"]::before {
+  content: url("img/extref.png");
+  padding-right: 2px;
+  
+}
+
+p>a[href$=".doc"]::after {
+  content: url(img/logo-doc.jpg);
+  padding-left: 1px;
+}
+
+p>a[href$=".pdf"]::after {
+  content: url("img/logo-pdf.png");
+  padding-left: 1px;
+}
+
+p>a[href$=".zip"]::after {
+  content: url("img/logo-zip.gif");
+  padding-left: 1px;
+}
+
+ul>li>a[href$=".doc"]:hover::after {
+  content: url("img/logo-doc.jpg");
+  padding-left: 1px;
+}
+
+ul>li>a[href$=".pdf"]:hover::after {
+  content: url("img/logo-pdf.png");
+  padding-left: 1px;
+}
+
+ul>li>a[href$=".zip"]:hover::after {
+  content: url("img/logo-zip.gif");
+  padding-left: 1px;
+}

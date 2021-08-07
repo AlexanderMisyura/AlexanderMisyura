@@ -1,0 +1,38 @@
+
+caption {
+  caption-side: bottom;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table tr th, table tr td {
+  border: 1px dotted #60555c;
+  padding: 5px;
+}
+
+table tr:nth-child(2n+1) {
+  background-color: #ccc;
+}
+
+table tr:first-child {
+  background-color: #777;
+  color: #fff;
+}
+
+tr>th:first-child:not(tr:first-child>th:first-child) {
+  text-align: left;
+}
+
+tr>td:last-child:hover,
+tr>td:nth-child(5):hover {
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(253, 227, 227);
+}
+
+tr:hover:not(tr:first-child) {
+  color: blue;
+  cursor: not-allowed;
+}

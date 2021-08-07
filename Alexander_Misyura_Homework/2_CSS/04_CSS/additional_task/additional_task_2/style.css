@@ -1,0 +1,28 @@
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  counter-reset: cells 65;
+}
+
+tr:nth-child(2n+1) th:nth-child(2n) {
+  border: 1px solid black;
+  background-color: black;
+  width: 55px;
+  height: 55px;
+  color: #fff;
+}
+tr:nth-child(2n) th:nth-child(2n+1) {
+  border: 1px solid black;
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+}
+
+th::after {
+  counter-increment: cells -1;
+  content: counter(cells);
+  font: bold 36px 'Times New Roman', Times, serif;
+  
+}

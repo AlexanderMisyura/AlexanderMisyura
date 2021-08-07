@@ -1,0 +1,12 @@
+.wrapper {
+  margin: 30px;
+}
+
+.frame {
+  border-style:solid;
+  border-image-width: 4em;
+  border-image-source: url('img/ramka.png');
+  border-image-slice: 100;
+  text-align: justify;
+  padding: 30px;
+}

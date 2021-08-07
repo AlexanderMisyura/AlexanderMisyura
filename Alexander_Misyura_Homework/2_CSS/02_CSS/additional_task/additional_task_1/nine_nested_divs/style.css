@@ -1,0 +1,19 @@
+.wrapper {margin: 30px}
+
+.c1 {background: url("img/t.png") repeat-x top}
+
+.c2 {background: url("img/b.png") repeat-x bottom}
+
+.c3 {background: url("img/l.png") repeat-y left}
+
+.c4 {background: url("img/r.png") repeat-y right}
+
+.c5 {background: url("img/l-t.png") no-repeat top left}
+
+.c6 {background: url("img/r-t.png") no-repeat right top}
+
+.c7 {background: url("img/l-b.png") no-repeat left bottom}
+
+.c8 {background: url("img/r-b.png") no-repeat right bottom}
+
+.c9 {padding: 3em}

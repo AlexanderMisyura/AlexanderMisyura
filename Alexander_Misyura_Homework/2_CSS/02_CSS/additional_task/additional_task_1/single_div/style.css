@@ -1,0 +1,16 @@
+.wrapper {
+  margin: 30px;
+}
+
+.frame {
+  background: url("img/l-t.png") no-repeat top left,
+              url("img/r-t.png") no-repeat right top,
+              url("img/l-b.png") no-repeat left bottom,
+              url("img/r-b.png") no-repeat right bottom,
+              url("img/t.png") repeat-x top,
+              url("img/b.png") repeat-x bottom,
+              url("img/l.png") repeat-y left,
+              url("img/r.png") repeat-y right;
+   padding: 3em;
+   text-align: justify;
+}
