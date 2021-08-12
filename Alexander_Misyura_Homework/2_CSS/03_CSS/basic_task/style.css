@@ -45,7 +45,6 @@
 .sub-menu__list {
   display: none;
   position: absolute;
-  left: 0;
   top: 30px;
 }
 
