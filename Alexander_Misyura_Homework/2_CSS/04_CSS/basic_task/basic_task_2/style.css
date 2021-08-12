@@ -35,4 +35,5 @@ tr>td:nth-child(5):hover {
 tr:hover:not(tr:first-child) {
   color: blue;
   cursor: not-allowed;
+  background-color: aquamarine;
 }
