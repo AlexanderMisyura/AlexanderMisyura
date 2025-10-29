@@ -20,6 +20,7 @@ Here are some ideas to get you started:
 -->
 
 
+<!--
 ### Languages and Tools :
 
 <p>
@@ -48,4 +49,4 @@ Here are some ideas to get you started:
 
 [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" title="LinkedIn" alt="LinkedIn" height="100" />](https://www.linkedin.com/in/alexander-misyura/)
 []()
-
+-->
